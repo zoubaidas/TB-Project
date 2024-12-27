@@ -1,6 +1,3 @@
-# prompts.py
-
-
 BASE_SYSTEM_PROMPT = """
 You are responsible for generating a structured, detailed, and adaptive task tree to conduct a penetration test on {target}. 
 The task tree must dynamically evolve based on user-provided command outputs at each task, ensuring an efficient and 
